@@ -1,13 +1,17 @@
    body {
        margin: 0;
        padding: 0;
-       background-color: #f0f0f0;
+       background: linear-gradient(to right, #0157c7, rgb(23, 30, 128));
        font-family: Arial, sans-serif;
        display: flex;
        flex-direction: column;
        min-height: 100vh;
+       overflow: hidden;
 
    }
+
+
+
 
    .background-div {
        flex: 1;
@@ -15,46 +19,78 @@
        flex-direction: column;
        justify-content: center;
 
-   }
 
-   .top-waves {
-       background-color: #333;
-       flex: 1;
    }
 
    .main-content {
-       background-color: #2c6fbe;
-       flex: 5;
+       width: 60%;
+       margin: 0 auto;
+       border-radius: 15px;
+
+       padding: 20px;
+       display: flex;
    }
 
+   .image-container {
+       flex: 1;
+       padding: 20px;
+   }
+
+   img {
+       max-width: 100%;
+       height: auto;
+       border-radius: 10px;
+   }
+
+   .text-container {
+       flex: 1;
+       padding: 20px;
+   }
+
+   h2 {
+       font-size: 24px;
+       margin-bottom: 30px;
+       color: rgb(255, 255, 255);
+       text-transform: uppercase;
+   }
+
+
+   p {
+       font-size: 18px;
+       color: rgb(255, 255, 255);
+       line-height: 1.5;
+   }
+
+
+
+
    #menu-config {
-    display: none;
-    position: absolute;
-    bottom: 55px;
-    left: 20px;
-    background: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 10px; 
-    z-index: 100;
-    animation: slide-up 0.3s ease 
-}
-
-    @keyframes slide-up {
-            0% {
-                transform: translateY(30px);
-                opacity: 0;
-            }
-            100% {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
+       display: none;
+       position: absolute;
+       bottom: 115px;
+       left: 20px;
+       background: #fff;
+       border: 1px solid #ccc;
+       padding: 10px;
+       border-radius: 10px;
+       z-index: 100;
+       animation: slide-up 0.3s ease;
+       line-height: 1.5;
+   }
 
 
 
+   @keyframes slide-up {
+       0% {
+           transform: translateY(30px);
+           opacity: 0;
+       }
 
-
+       100% {
+           transform: translateY(0);
+           opacity: 1;
+       }
+   }
 
 
    .column {
@@ -69,10 +105,21 @@
 
    }
 
+   .iconelang,
+   .iconecontrast {
+       margin-right: 5px;
+       margin-left: 10px;
+   }
+
 
 
    .footer-menu {
-       background-color: #2c6fbe;
+       background: rgba(255, 255, 255, 0.11);
+       border-radius: 5px;
+       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+       backdrop-filter: blur(2.3px);
+       -webkit-backdrop-filter: blur(2.3px);
+       border: 1px solid rgba(255, 255, 255, 0.3);
        color: white;
        display: flex;
        justify-content: space-between;
@@ -138,6 +185,6 @@
        cursor: pointer;
    }
 
-   a:visited{
-    color:#fff;
+   a:visited {
+       color: #fff;
    }
