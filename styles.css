@@ -23,11 +23,11 @@
    }
 
    .main-content {
-       width: 60%;
+       width: 80%;
        margin: 0 auto;
        border-radius: 15px;
 
-       padding: 20px;
+       padding: 25px;
        display: flex;
    }
 
@@ -43,7 +43,7 @@
    }
 
    .text-container {
-       flex: 1;
+       flex: 1.5;
        padding: 20px;
    }
 
