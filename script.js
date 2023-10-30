@@ -2,7 +2,7 @@
 const menu = document.getElementById('menu-config');
 const menuIcone = document.querySelector('.fa-gear')
 
-function toggleMenu(event) { // abre e fecha o menu
+function toggleMenu() { // abre e fecha o menu
     
     if (menu.style.display === 'none' || menu.style.display === '') {
         menu.style.display = 'block';
