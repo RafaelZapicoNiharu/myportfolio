@@ -1,6 +1,4 @@
- <span class="arrow-icon left"><i class="fa-solid fa-chevron-left fa-2xl"></i></span>
-        <span class="arrow-icon right"><i class="fa-solid fa-chevron-right fa-2xl"></i></span>
-        <div class="slides">
+
             <div class="main-content">
                 <div class="image-container">
                     <img src="./resources/blob-haikei(1).svg" alt="Descrição da imagem">
@@ -17,4 +15,4 @@
                 </div>
 
             </div>
-        </div>
+        
