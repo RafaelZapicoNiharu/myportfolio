@@ -1,0 +1,20 @@
+ <span class="arrow-icon left"><i class="fa-solid fa-chevron-left fa-2xl"></i></span>
+        <span class="arrow-icon right"><i class="fa-solid fa-chevron-right fa-2xl"></i></span>
+        <div class="slides">
+            <div class="main-content">
+                <div class="image-container">
+                    <img src="./resources/blob-haikei(1).svg" alt="Descrição da imagem">
+                </div>
+                <div class="text-container">
+                    <h2 style="text-align:center;">Sobre Mim</h2>
+                    <p style="text-indent:4em; text-align: justify;">Tive meu primeiro contato com a programação durante
+                        o ensino médio no curso de Mecatrônica, descobri uma afinidade pela lógica de programação e pelo
+                        design de interfaces e personagens.</p>
+                    <p style="text-align: justify; text-indent:4em;">Atualmente, estou focado na realização de projetos
+                        acadêmicos e a procura do meu primeiro emprego na área. Além disso, tenho habilidades em
+                        ilustrações digitais, embora meu foco principal esteja na área de programação e design de
+                        interfaces.</p>
+                </div>
+
+            </div>
+        </div>
