@@ -3,3 +3,7 @@
     height: 80vh;
 
   }
+
+  .swiper-wrapper{
+    width: 100%;
+  }

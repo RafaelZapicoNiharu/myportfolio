@@ -23,17 +23,19 @@
    }
 
    .main-content {
-       width: 79%;
+       width: 80%;
        margin: 0 auto;
        border-radius: 15px;
-
+        
        padding: 30px;
        display: flex;
    }
 
    .image-container {
-       flex: 0.8;
-       padding: 20px;
+        
+       flex: 1;
+       padding-top: 30px;
+       
    }
 
    img {
