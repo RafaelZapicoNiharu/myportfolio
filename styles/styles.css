@@ -1,7 +1,7 @@
    body {
        margin: 0;
        padding: 0;
-       background: linear-gradient(to right, #0157c7, rgb(23, 30, 128));
+       background-image: url('/resources/star-guardian-background-environment-art-league-of-legends-v0-z5mbwb9h9jbb1.webp');
        font-family: Arial, sans-serif;
        display: flex;
        flex-direction: column;
