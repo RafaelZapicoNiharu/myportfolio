@@ -7,9 +7,109 @@
        flex-direction: column;
        min-height: 100vh;
        overflow: hidden;
-       box-sizing: content-box;
+       box-sizing: border-box;
 
    }
+
+
+
+#alerta-do-dev {
+    position: fixed;
+    top: -150px;
+    left: 0;
+    width: 275px;
+    background-color: #3498db; 
+    color: #ecf0f1; 
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    animation: slideDown 1s ease-in-out forwards;
+    z-index: 1000;  
+}
+
+#alerta-do-dev1 {
+    position: fixed;
+    top: -150px;
+    left: 0;
+    width: 275px;
+    background-color: #3498db; 
+    color: #ecf0f1; 
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    animation: slideDown 5s ease-in-out forwards;
+    z-index: 1000;  
+}
+
+#alerta-do-dev1 p {
+    margin: 0; 
+}
+
+#alerta-do-dev p {
+    margin: 0; 
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+@keyframes slideDown {
+    from {
+        top: -150px; 
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1; 
+    }
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
   
   
 
@@ -18,8 +118,6 @@
        display: flex;
        flex-direction: column;
        justify-content: center;
-
-
    }
 
    .main-content {
