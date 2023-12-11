@@ -1,7 +1,7 @@
    body {
        margin: 0;
        padding: 0;
-       background-image: url('/resources/star-guardian-background-environment-art-league-of-legends-v0-z5mbwb9h9jbb1.webp');
+       background-image: url('../resources/star-guardian-background-environment-art-league-of-legends-v0-z5mbwb9h9jbb1.webp');
        font-family: Arial, sans-serif;
        display: flex;
        flex-direction: column;
@@ -43,7 +43,7 @@
     font-size: 18px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-    animation: slideDown 5s ease-in-out forwards;
+    animation: slideDown 6s ease-in-out forwards;
     z-index: 1000;  
 }
 
