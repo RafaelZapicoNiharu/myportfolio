@@ -2,6 +2,7 @@
        margin: 0;
        padding: 0;
        background-image: url('../resources/star-guardian-background-environment-art-league-of-legends-v0-z5mbwb9h9jbb1.webp');
+       background-size: cover;
        font-family: Arial, sans-serif;
        display: flex;
        flex-direction: column;
@@ -86,33 +87,9 @@
 
 
 
-.close-button {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
 
-.close-button {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-.close-button {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
   
   
-
    .background-div {
        flex: 1;
        display: flex;

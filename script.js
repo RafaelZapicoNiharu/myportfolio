@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setTimeout(function () {
         alertDiv.style.display = 'none';
-    }, 5000); 
+    }, 6000); 
 
     setTimeout(function () {
         alertDiv1.style.display = 'none';
