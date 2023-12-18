@@ -109,6 +109,15 @@
        padding: 30px;
        display: flex;
    }
+   .main-content2 {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+     flex-direction: column;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
 
    .image-container {
         
@@ -125,7 +134,7 @@
 
    .text-container {
        flex: 1.5;
-       padding: 20px;
+       
        display: flex;
        flex-direction: column;
        align-items: center;
@@ -142,20 +151,4 @@
        font-size: 18px;
        color: rgb(255, 255, 255);
        line-height: 1.5;
-   }
-
-   .arrow-icon {
-       position: absolute;
-       font-size: 20px;
-       color: #fff;
-       top: 45%;
-       cursor: pointer;
-   }
-
-   .arrow-icon.left {
-       left: 10px;
-   }
-
-   .arrow-icon.right {
-       right: 10px;
    }

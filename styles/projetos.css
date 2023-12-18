@@ -32,12 +32,26 @@
 
 
 .tituloProj{
+    color: white;
+    font-weight: bold;
+   
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+ 
+
 }
 .descricaoProj{
-    margin: 6px;
-    font-size: 17px;
+   justify-content: center;
+    display: flex;
+    margin: 25px 5px 10px 5px;
+    font-size: 14px;
+    text-align: justify;
     text-align: center;
 
+}
+
+
+.atualizadoProj{
+    font-size: 12px;
+   
 }
