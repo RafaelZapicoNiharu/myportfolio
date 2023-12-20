@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafael Zapico</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/sweetalert2.min.css" <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/stylesSwiper.css">
     <link rel="stylesheet" href="./styles/styles.css">
@@ -17,13 +20,6 @@
 <body>
 
     <div class="background-div">
-        <div id="alerta-do-dev">
-            <p>Portfolio em construção! 🔨 <i class="fas fa-times close-button"></i></p>
-        </div>
-        <div id="alerta-do-dev1">
-            <p>Me contrata ai, poxa ! 🤒 <i class="fas fa-times close-button dois"></i></p>
-        </div>
-
 
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -124,10 +120,21 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./jss/script.js"></script>
     <script src="./jss/repos.js"></script>
+    <script>
+
+        Swal.fire({
+
+            html: "Meu portifolio ainda está em <b>construção</b>, algumas funções podem estar temporariamente indisponíveis!",
+            imageUrl: "./resources/sage.gif",
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: "Imagem para indicar desenvolvimento"
+        });
+    </script>
 </body>
 
 </html>
