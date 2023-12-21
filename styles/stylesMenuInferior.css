@@ -1,6 +1,6 @@
-#menu-config {
+#menu-config { /* menu linguagens */
     display: none;
-    position: absolute;
+    position: fixed;
     bottom: 60px;
     left: 20px;
     background: #fff;
@@ -12,7 +12,7 @@
     line-height: 1.5;
 }
 
-@keyframes slide-up {
+@keyframes slide-up { /*animação de entrada do menu*/
     0% {
         transform: translateY(30px);
         opacity: 0;
@@ -23,28 +23,14 @@
         opacity: 1;
     }
 }
-
-.column {
-    display: flex;
-    background-color: #fff;
-    padding: 20px;
-    box-sizing: border-box;
-    color: #333;
-    margin: 10px;
-    float: left;
-    align-items: center;
-
-}
-
-.iconelang,
+  
+.iconelang,      /*icones linguagens*/
 .iconecontrast {
     margin-right: 5px;
     margin-left: 10px;
 }
 
-.footer-menu {
- 
-   
+.footer-menu {   /*menu inferior */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -53,7 +39,7 @@
 
 }
 
-.icon-bar {
+.icon-bar {  /*barra de icones centrais*/
     display: flex;
     justify-content: center;
     background-color: transparent;
@@ -61,22 +47,18 @@
     flex: 1;
 }
 
-.menu-icon {
-    font-size: 24px;
+.menu-icon { /*icones do menu inferior*/
+    font-size: 23px;
     cursor: pointer;
-    display: inline-block;
     margin: 10px;
     transition: transform 0.3s ease;
-
 }
 
-
-.menu-icon:hover {
+.menu-icon:hover { /*passando mão em cima*/
     transform: translateY(-15px);
-
 }
 
-.mini-div {
+.mini-div {  /*div onde tá meus icones de configuração*/
     display: flex;
     align-items: center;
     margin-left: 20px;
@@ -84,34 +66,33 @@
     position: absolute;
 }
 
+.fa-gear {  /*botão configuraçõ (engrenagem)*/
+    font-size: 25px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
 
+.fa-gear:hover { /*passar o mouse na engrenagem*/
+    transform: scale(1.2) rotate(99deg);
+    cursor: pointer;
+}
+
+a.footer-menu:visited { /*links clicados*/
+    color: #fff;
+}
+a{ /*links */
+    color: #fff;
+}
+
+/*
 .fa-moon:hover {
     transform: scale(1.2);
     cursor: pointer;
-
-
 }
 
 .fa-moon {
     font-size: 25px;
     margin-right: 10px;
     transition: transform 0.3s ease;
-}
-
-.fa-gear {
-    font-size: 25px;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
-}
-
-.fa-gear:hover {
-    transform: scale(1.2) rotate(70deg);
-    cursor: pointer;
-}
-
-a:visited {
-    color: #fff;
-}
-a{
-    color: #fff;
-}
+} */
+ 

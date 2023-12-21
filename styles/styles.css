@@ -1,8 +1,10 @@
    body {
+       /*corpo da pagina*/
        margin: 0;
        padding: 0;
        background-image: url('../resources/img/starguardianBackground.webp');
        background-size: cover;
+       background-repeat: no-repeat;
        font-family: Arial, sans-serif;
        display: flex;
        flex-direction: column;
@@ -11,64 +13,66 @@
        box-sizing: border-box;
 
    }
-   a{
-    text-decoration: none;
+
+   a {
+       /*tirar o sublinhado dos links*/
+       text-decoration: none;
+
    }
-   .background-div {
+
+   .main-div {
+       /*conteudo principal da pagina*/
        flex: 1;
        display: flex;
        flex-direction: column;
-       justify-content: center;
+       justify-content: flex-start;
+       align-items: center;
    }
+  
 
-   .main-content {
-       width: 80%;
-       margin: 0 auto;
-       border-radius: 15px;
-        
-       padding: 30px;
+   .menunav {  /*menu superior*/
+       background: rgba(25, 13, 68, 0.236);
+       box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+       backdrop-filter: blur(0.5px);
+       -webkit-backdrop-filter: blur(0.5px);
+       border: 1px solid rgba(255, 255, 255, 0.18);
+       width: 24vw;
+       height: 5vh;
+       margin: 20px;
+       border-radius: 20px;
        display: flex;
-   }
-   .main-content2 {
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 15px;
-     flex-direction: column;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-}
-
-   .image-container {
-        
-       flex: 1;
-       padding-top: 30px;
-       
-   }
-
-   img {
-       max-width: 100%;
-       height: auto;
-       border-radius: 10px;
-   }
-
-   .text-container {
-       flex: 1.5;
-       
-       display: flex;
-       flex-direction: column;
+       flex-direction: row;
+       justify-content: space-evenly;
        align-items: center;
    }
 
-   h2 {
-       font-size: 24px;
-       margin-bottom: 30px;
-       color: rgb(255, 255, 255);
-       text-transform: uppercase;
+   a.item-menu{ /*links do menu*/
+    color: rgb(92, 99, 104);
+    
+   }
+   a.item-menu.ativo{ /*link ativo*/
+    color: rgb(237, 237, 237);
+    
    }
 
-   p {
-       font-size: 18px;
-       color: rgb(255, 255, 255);
-       line-height: 1.5;
+   .menu-content{ /*conteudos serao posicionados aqui*/
+    flex: 1;
+    width: 98vw;
+    background: transparent;
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+   }
+
+   .conteudo{
+    background-color: azure;
+    width: 100%;
+    height: 70vh;
+    margin: 1vw;
+    
+    border-radius:0.8vw;
+    
    }

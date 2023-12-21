@@ -17,42 +17,17 @@ pageContent.addEventListener('click', function (event) {
     }
 });
 
+//menu superior
 
+menuSuperior = document.querySelectorAll('.item-menu');
 
-//swiper 
-
-const swiper = new Swiper('.swiper', {
-    direction: 'horizontal',
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable:'true'
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-
-
-
-//alertas
-document.addEventListener('DOMContentLoaded', function () {
-    var alertDiv = document.getElementById('alerta-do-dev');
-    var alertDiv1 = document.getElementById('alerta-do-dev1');
-    var closeButton = document.querySelector('.close-button');
-    var closeButton1 = document.querySelector('.dois');
-    console.log(closeButton1);
-    closeButton.addEventListener('click', function () {
-        alertDiv.style.display = 'none'; 
+menuSuperior.forEach(element => {
+   element.addEventListener('click',()=>{
+    element.classList.add('ativo');
+    menuSuperior.forEach(e=>{
+        if(e!==element){
+          e.classList.remove('ativo');
+        }
     });
-    closeButton1.addEventListener('click', function () {
-        alertDiv1.style.display = 'none';
-    })
-    setTimeout(function () {
-        alertDiv.style.display = 'none';
-    }, 6000);
-    setTimeout(function () {
-        alertDiv1.style.display = 'none';
-    }, 10000); 
+   });
 });
