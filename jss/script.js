@@ -19,6 +19,7 @@ pageContent.addEventListener('click', function (event) {
 
 //menu superior
 
+
 menuSuperior = document.querySelectorAll('.item-menu');
 
 menuSuperior.forEach(element => {
